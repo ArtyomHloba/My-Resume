@@ -157,12 +157,21 @@ body {
 /* Side-Bar */
 
 .side-bar {
-  width: 370px;
+  width: 400px;
   background-color: #e0ebfe;
 }
 
+.photo-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .my-photo {
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
   object-fit: cover;
 }
 .contacts-container,
@@ -202,6 +211,14 @@ body {
   color: #161d2a;
 }
 .contacts-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+
+.contacts-certificate {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
